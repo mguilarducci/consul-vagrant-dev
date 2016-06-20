@@ -1,0 +1,11 @@
+{
+  "bootstrap": false,
+  "server": false,
+  "datacenter": "local",
+  "data_dir": "/var/consul",
+  "log_level": "DEBUG",
+  "enable_syslog": true,
+  "rejoin_after_leave": true,
+  "bind_addr": "192.168.22.14",
+  "start_join": ["192.168.22.10", "192.168.22.11", "192.168.22.12"]
+}

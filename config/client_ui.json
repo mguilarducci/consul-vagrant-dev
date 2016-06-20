@@ -1,0 +1,13 @@
+{
+  "bootstrap": false,
+  "server": false,
+  "datacenter": "local",
+  "data_dir": "/var/consul",
+  "ui_dir": "/home/vagrant/dist",
+  "log_level": "DEBUG",
+  "enable_syslog": true,
+  "rejoin_after_leave": true,
+  "bind_addr": "192.168.22.13",
+  "client_addr": "192.168.22.13",
+  "start_join": ["192.168.22.10", "192.168.22.11", "192.168.22.12"]
+}
